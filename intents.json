@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! How can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Farewell"],
+      "responses": ["Goodbye! Have a great day!", "See you later! Take care!", "Farewell!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot"],
+      "responses": ["You're welcome!", "No problem!", "My pleasure!", "Anytime!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Who are you?", "Tell me your name"],
+      "responses": ["I'm your friendly chatbot!", "You can call me Chatbot.", "I'm here to help you, I'm Chatbot."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?", "Tell me your age"],
+      "responses": ["I don't have an age like humans, but I'm here to help you!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "I need help", "Help me"],
+      "responses": ["Sure, I'm here to help! What do you need assistance with?", "How can I assist you today?", "I'm here to help! What do you need?"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Tell me the weather", "How's the weather?", "Weather update"],
+      "responses": ["Sure, let me check the weather for you.", "Hold on, checking the weather for you.", "Let me get the current weather update."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "I want to hear a joke", "Make me laugh", "Joke"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why was the math book sad? It had too many problems.", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+    }
+  ]
+}
